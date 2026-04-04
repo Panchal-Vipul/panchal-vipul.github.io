@@ -1,28 +1,44 @@
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About – Vipul Panchal</title>
     style.css
 </head>
+
 <body>
 
-<nav>
-    About
-    Research
-    Grants & Fellowships
-    Publications
-    Projects
-    Contact</a>
+<header>
+    <h1>About Me</h1>
+</header>
+
+<nav class="navbar">
+    <a href="index.html" class="nav-link">Home</a>
+    <a href="about.html" class="nav-link">About</a>
+    <a href="research.html" class="nav-link">Research</a>
+    <a href="publications.html" class="nav-link">Publications</a>
+    <a href="projects.html" class="nav-link">Projects</a>
+    <a href="contact.html" class="nav-link">Contact</a>
 </nav>
 
+<script>
+    const currentPage = window.location.pathname.split("/").pop();
+    const links = document.querySelectorAll(".nav-link");
+
+    links.forEach(link => {
+        if (link.getAttribute("href") === currentPage) {
+            link.classList.add("active");
+        }
+    });
+</script>
+
 <section>
-    <h3>About Me</h3>
     <p>
         I am a researcher specializing in developing integrated experimental and computational frameworks that transform RNA‑ligand discovery from isolated successes into scalable and reproducible biophysics‑driven pipelines. By combining high‑throughput biophysics, RNA structural mapping, and structure‑enabled virtual screening, my work enables systematic interrogation of challenging RNA and protein targets relevant to infectious diseases, antimicrobial resistance, and rare genetic disorders.
     </p>
 </section>
-
   
 </body>
 </html>
