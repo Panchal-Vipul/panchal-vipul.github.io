@@ -42,14 +42,14 @@ ol li {
     line-height: 1.5;
 }
 
-/* ✅ Hero Image Styling */
-.hero-container {
+/* ✅ Picture1 Image Styling */
+.Picture1-container {
     width: 100%;
     text-align: center;
     margin: 30px 0;
 }
 
-.hero-image {
+.Picture1-image {
     width: 90%;
     max-width: 900px;
     border-radius: 12px;
@@ -58,6 +58,6 @@ ol li {
 }
 
 /* Optional hover effect */
-.hero-image:hover {
+.Picture1-image:hover {
     transform: scale(1.02);
 }
