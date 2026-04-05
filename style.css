@@ -24,14 +24,20 @@
     color: #ffcc00;
 }
 
+/* Publication links: remove blue color + make title clickable */
 .paper-title {
-    color: inherit;        /* Matches body text */
-    text-decoration: none; /* Removes underline */
+    color: inherit;            /* Use same color as paragraph text */
+    text-decoration: none;     /* Remove underline */
     font-weight: normal;
 }
 
 .paper-title:hover {
-    color: #003366;        /* Optional hover color */
+    color: #003366;            /* Optional hover color */
     text-decoration: underline;
 }
 
+/* Optional improvement: make list spacing cleaner */
+ol li {
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
