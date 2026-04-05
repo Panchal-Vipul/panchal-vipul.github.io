@@ -23,3 +23,15 @@
     padding-bottom: 4px;
     color: #ffcc00;
 }
+
+.paper-title {
+    color: inherit;        /* Matches body text */
+    text-decoration: none; /* Removes underline */
+    font-weight: normal;
+}
+
+.paper-title:hover {
+    color: #003366;        /* Optional hover color */
+    text-decoration: underline;
+}
+
