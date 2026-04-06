@@ -1,73 +1,46 @@
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vipul Panchal.JPG – Mission</title>
+<!-- ✅ TWO-COLUMN HERO SECTION -->
+<section class="two-column-hero">
 
-    <!-- Correct CSS link -->
-    <link rel="stylesheet" href="style.css">
-</head>
+    <!-- LEFT COLUMN — PHOTO -->
+    <div class="hero-left">
+        <img src="assets/images/Picture1.jpg" alt="Vipul Panchal" class="hero-photo">
+    </div>
 
-<body>
+    <!-- RIGHT COLUMN — TEXT -->
+    <div class="hero-right">
+        <h1 class="hero-name">Vipul Navinchandra Panchal, PhD</h1>
 
-<header>
-    <h1>Vipul Navinchandra Panchal, PhD</h1>
-    <h2>RNA–ligand interactions | Protein–ligand interactions</h2>| Structure-based ligand design</h2>
-</header>
+        <!-- ✅ KEYWORDS LINE -->
+        <p class="hero-keywords">
+            RNA–ligand interactions • Protein–ligand interactions • Structure-based ligand design
+        </p>
 
-<!-- ✅ Vipul Panchal.JPG Image Section -->
-<section class="Vipul Panchal.JPG-container">
-    <img src="assets/images/Vipul Panchal.JPG.jpg" alt="Research Image" class="Vipul Panchal.JPG-image">
+        <h2>Research Vision</h2>
+
+        <p>
+            My current research focuses on developing integrated experimental and computational 
+            frameworks that transform RNA‑ligand discovery from isolated successes into scalable and 
+            reproducible biophysics‑driven pipelines. By combining high‑throughput biophysics, RNA 
+            structural mapping, and structure‑enabled virtual screening, my work enables systematic 
+            interrogation of challenging therapeutic targets relevant to infectious diseases, 
+            antimicrobial resistance, and rare genetic disorders.
+        </p>
+
+        <p>
+            My goal is to integrate chemical biology, biophysics, structural biology and computational 
+            biology to address unmet and difficult therapeutic challenges to support patients. My 
+            main focus remains on infectious diseases and rare genetic disorders. 
+            For infectious diseases, I aim to employ comprehensive strategies to identify novel antibacterial
+            agents, with a particular focus on under‑explored protein and RNA targets.
+        </p>
+
+        <p>
+            Rare genetic diseases are under-recognised worldwide, including in India, and some become 
+            life‑threatening due to delayed or missed diagnosis. I aim to explore the fundamental
+            molecular pathways to identify biochemical biomarkers of disease states and then engineer 
+            sensitive diagnostic tools leveraging microfluidics and molecular recognition strategies.
+        </p>
+    </div>
+
 </section>
-
-<!-- ✅ Navigation Bar -->
-<nav class="navbar">
-    <a href="index.html" class="nav-link">Mission</a>
-    <a href="research.html" class="nav-link">Research</a>
-    <a href="grants.html" class="nav-link">Grants</a>
-    <a href="publications.html" class="nav-link">Publications</a>
-    <a href="projects.html" class="nav-link">Projects</a>
-    <a href="contact.html" class="nav-link">Contact</a>
-</nav>
-
-<!-- ✅ Highlight Active Page -->
-<script>
-    const currentPage = window.location.pathname.split("/").pop();
-    document.querySelectorAll(".nav-link").forEach(link => {
-        if (link.getAttribute("href") === currentPage) {
-            link.classList.add("active");
-        }
-    });
-</script>
-
-<section>
-    <h2>Mission</h2>
-    <p>
-        My current research focuses on developing integrated experimental and computational 
-        frameworks that transform RNA‑ligand discovery from isolated successes into scalable and 
-        reproducible biophysics‑driven pipelines. By combining high‑throughput biophysics, RNA 
-        structural mapping, and structure‑enabled virtual screening, my work enables systematic 
-        interrogation of challenging therapeutic targets relevant to infectious diseases, 
-        antimicrobial resistance, and rare genetic disorders.
-        <br><br>
-        My goal is to integrate chemical biology, biophysics, structural biology and computational 
-        biology to address unmet and difficult therapeutic challenges to support patients. My
-        main focus remains on infectious diseases and rare genetic disorders. 
-        For infectious diseases, I aim to employ comprehensive strategies to identify novel antibacterial
-        agents, with a particular focus on under‑explored protein and RNA targets. 
-        Rare genetic diseases are under-recognised worldwide, including in India and some become 
-        life‑threatening due to delayed or missed diagnosis. First, I want to explore the fundamental
-        molecular pathways to identify biochemical biomarkers of disease states and then engineer 
-        sensitive diagnostic tools by leveraging microfluidics and molecular recognition strategies, 
-        while also exploring therapeutic opportunities for targetable disease‑causing pathways.
-    </p>
-</section>
-
-<footer>
-    <p>© 2026 Vipul Navinchandra Panchal</p>
-</footer>
-
-</body>
-</html>
