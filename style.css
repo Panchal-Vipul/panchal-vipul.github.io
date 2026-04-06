@@ -61,7 +61,7 @@ ol li {
 
 /* ✅ Picture2.jpg Image Styling */
 .Picture2-image {
-    width: 75%;               /* Adjust size here */
+    width: 25%;               /* Adjust size here */
     max-width: 350px;         /* Max size on large screens */
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.2);
