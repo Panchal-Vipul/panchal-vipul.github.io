@@ -1,62 +1,53 @@
 
-/* Navigation Bar */
-.navbar {
-    background-color: #003366;
-    padding: 15px;
+/* ✅ TWO-COLUMN HERO LAYOUT */
+.two-column-hero {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+
+/* LEFT — Photo */
+.hero-left {
+    flex: 1;
     text-align: center;
 }
 
-.navbar .nav-link {
-    color: #ffffff;
-    text-decoration: none;
-    margin: 0 15px;
-    font-size: 18px;
-    font-weight: 500;
+/* RIGHT — Text */
+.hero-right {
+    flex: 2;
+    line-height: 1.6;
 }
 
-.navbar .nav-link:hover {
-    color: #ffcc00;
+/* Name */
+.hero-name {
+    margin-bottom: 10px;
 }
 
-.navbar .nav-link.active {
-    border-bottom: 2px solid #ffcc00;
-    padding-bottom: 4px;
-    color: #ffcc00;
-}
-
-/* Publication links */
-.paper-title {
-    color: inherit;
-    text-decoration: none;
-    font-weight: normal;
-}
-
-.paper-title:hover {
+/* Keywords */
+.hero-keywords {
+    font-size: 1rem;
     color: #003366;
-    text-decoration: underline;
+    font-weight: 500;
+    margin-bottom: 25px;
 }
 
-/* Publication spacing */
-ol li {
-    margin-bottom: 20px;
-    line-height: 1.5;
-}
+/* ✅ Mobile responsiveness */
+@media (max-width: 768px) {
+    .two-column-hero {
+        flex-direction: column;
+        text-align: center;
+    }
 
-/* ✅ Picture2 Image Styling (Corrected Class Names) */
-.Picture2-container {
-    width: 100%;
-    text-align: center;
-    margin: 30px 0;
-}
+    .hero-left, .hero-right {
+        width: 100%;
+    }
 
-.Picture2-image {
-    width: 45%;               /* Adjust size here */
-    max-width: 900px;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-    transition: 0.3s ease;
-}
-
-.Picture2-image:hover {
-    transform: scale(1.02);
+    .Picture2-image {
+        width: 70%;
+        max-width: 260px;
+    }
 }
