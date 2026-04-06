@@ -60,12 +60,13 @@ ol li {
 }
 
 
-/* ✅ Picture2.jpg Image Styling */
+
+* ✅ Passport‑size Picture2.jpg */
 .Picture2-image {
-    width: 200px;          /* ✅ Set desktop image size */
-    height: auto;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    width: 150px;        /* ✅ Passport photo width */
+    height: auto;        /* ✅ Keeps natural proportions */
+    border-radius: 8px;  /* ✅ Slight rounding (optional) */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);  /* ✅ Soft shadow */
     transition: 0.3s ease;
 }
 
