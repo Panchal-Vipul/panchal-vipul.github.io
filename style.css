@@ -59,27 +59,18 @@ ol li {
     text-align: center;
 }
 
-
-
-* ✅ Passport‑size Picture2.jpg */
+/* ✅ FINAL PASSPORT-SIZE PHOTO */
 .Picture2-image {
-    width: 150px;        /* ✅ Passport photo width */
-    height: auto;        /* ✅ Keeps natural proportions */
-    border-radius: 8px;  /* ✅ Slight rounding (optional) */
-    box-shadow: 0 4px 10px rgba(0,0,0,0.2);  /* ✅ Soft shadow */
+    width: 150px !important;        /* ✅ passport size */
+    height: auto !important;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
     transition: 0.3s ease;
 }
 
 .Picture2-image:hover {
     transform: scale(1.03);
-}
-
-/* ✅ Mobile responsiveness */
-@media (max-width: 768px) {
-    .Picture2-image {
-        width: 60%;        /* ✅ Mobile size */
-        max-width: 220px;
-    }
 }
 
 /* ✅ RIGHT — Text Column */
@@ -113,7 +104,7 @@ ol li {
     }
 
     .Picture2-image {
-        width: 70%;
-        max-width: 260px;
+        width: 150px !important;
+        max-width: 150px !important;
     }
 }
